@@ -53,47 +53,28 @@ Features include both categorical and numerical fields, many with domain-specifi
 Repository tree is as follows:
 ```
 ├── 341.md
-├── data
-│   ├── application_test.parquet
-│   ├── application_train.parquet
-│   ├── bureau_balance.parquet
-│   ├── bureau.parquet
-│   ├── credit_card_balance.parquet
-│   ├── HomeCredit_columns_description.csv
-│   ├── installments_payments.parquet
-│   ├── POS_CASH_balance.parquet
-│   ├── previous_application.parquet
-│   ├── processed
-│   └── submissions
 ├── Dockerfile
 ├── ml_app
 │   ├── __init__.py
 │   ├── app_utils
-│   ├── main.py
-│   └── xgb_model.joblib
+│   └── main.py
 ├── notebooks
 │   ├── credits.ipynb
 │   ├── files.ipynb
 │   ├── applications.ipynb
 │   ├── model_params
-│   ├── prev_application.ipynb
-│   └── removed_features
+│   └── prev_application.ipynb
 ├── poetry.lock
-├── pyproject.toml
+├── pyproject.tomls
+├── .gitignore
 ├── README.md
-├── reports
-│   ├── application_data_profiling_50k.html
-│   └── figures
 └── utils
     ├── transformers.py
     ├── utils.py
     └── plot_style.py
 ```
-
 * Notebooks folder contains all analysis notebooks.
 * ML_app folder contains FastAPI application code and saved model.
-* Data folder contains raw and processed data.
-* Reports folder contains generated figures and data profiling report.
 * Utils folder contains utility functions for plotting styles.
 
 #### Overview of Models' Performance
