@@ -27,18 +27,27 @@ joblib_cache/
 
 # Log files
 *.log
-*.json
 *.js
+*.joblib
 *.json.log
 *.python-version
 catboost_info/
 catboost_*
+*.html
 
 # Experiment files
 *.db
 *.db-journal
 *.sqlite
 *.sqlite3
+figures/
+submissions/
+reports/
+removed_features/
 
 # Docker
 *.tar
+
+# Raw data files
+*.parquet
+*.csv
