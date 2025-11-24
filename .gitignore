@@ -1,0 +1,44 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# System files MacOS
+.DS_Store
+
+# IDE configuration files
+.vscode/
+.idea/
+*.code-workspace
+
+# Virtual environment folder
+.venv/
+.tmp/
+.virtual_documents/
+
+# Python cache files
+__pycache__/
+joblib_cache/
+.cache/
+
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+*.log
+*.json
+*.js
+*.json.log
+*.python-version
+catboost_info/
+catboost_*
+
+# Experiment files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Docker
+*.tar
