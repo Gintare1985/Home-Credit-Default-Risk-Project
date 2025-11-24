@@ -1,0 +1,47 @@
+[project]
+name = "home-credit"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gintare1985",email = "gintare.bulbuke@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+
+"numpy" = "==1.24.4"
+"pandas" = ">=2.3.0,<3.0.0"
+"scipy" = "==1.10.1"
+"scikit-learn" = ">=1.6.0,<1.7.0"
+"joblib" = ">=1.5.1,<2.0.0"
+"category-encoders" = ">=2.8.1,<3.0.0"
+"docker" = ">=7.1.0,<8.0.0" 
+"xgboost" = "==3.0.4"
+"fastapi" = ">=0.116.1,<0.117.0"
+"uvicorn" = ">=0.35.0,<0.36.0"
+"pydantic" = ">=2.12.3,<3.0.0"
+"duckdb" = ">=1.3.2,<2.0.0"
+"pyarrow" = ">=21.0.0,<22.0.0"
+
+[tool.poetry.group.dev.dependencies]
+"lightgbm" = ">=4.6.0,<5.0.0"
+"catboost" = ">=1.2.8,<2.0.0"
+"borutashap" = ">=1.0.17,<2.0.0" 
+"seaborn" = ">=0.13.2,<0.14.0"
+"jupyter" = ">=1.1.1,<2.0.0"
+"ipykernel" = ">=6.29.5,<7.0.0"
+"statsmodels" = ">=0.14.4,<0.15.0"
+"optuna" = ">=4.3.0,<5.0.0"
+"optuna-integration" = ">=4.3.0,<5.0.0"
+"phik" = ">=0.12.4,<0.13.0"
+"matplotlib" = ">=3.10.3,<4.0.0"
+"shap" = "==0.48.0"
+"ydata-profiling" = ">=4.5.1,<5.0.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

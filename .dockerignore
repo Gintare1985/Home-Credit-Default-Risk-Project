@@ -1,0 +1,85 @@
+# -------------------------------
+# Python cache / build artifacts
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+dist/
+build/
+
+# -------------------------------
+# Virtual environments
+# -------------------------------
+.env
+.venv
+env/
+venv/
+
+# -------------------------------
+# IDE / System files
+# -------------------------------
+.vscode/
+.idea/
+.DS_Store
+
+# -------------------------------
+# Environment variables
+# -------------------------------
+*.env
+
+# -------------------------------
+# LARGE DATA FILES (exclude)
+# -------------------------------
+data/
+# except if you need the schema CSV
+!data/HomeCredit_columns_description.csv
+
+# -------------------------------
+# LARGE REPORTS
+# -------------------------------
+reports/
+figures/
+*.html
+
+# -------------------------------
+# Jupyter notebooks
+# -------------------------------
+notebooks/
+*.ipynb
+
+# -------------------------------
+# ML TUNING STUDIES / DBs
+# -------------------------------
+*.db
+*.db-journal
+
+# -------------------------------
+# MODEL FILES (IMPORTANT)
+# Keep ml_app/xgb_model.joblib
+# -------------------------------
+# Do NOT ignore ml_app/xgb_model.joblib
+# but ignore other potential model formats
+*.joblib
+*.pkl
+*.pickle
+*.bin
+*.sav
+*.h5
+*.pt
+*.onnx
+*.xz
+*.gz
+
+# Undo ignore for your actual model:
+!ml_app/xgb_model.joblib
+
+# -------------------------------
+# Cache folders
+# -------------------------------
+__pycache__/
+ml_app/__pycache__/
+utils/__pycache__/
+
