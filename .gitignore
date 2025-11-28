@@ -40,9 +40,7 @@ catboost_*
 *.db-journal
 *.sqlite
 *.sqlite3
-figures/
 submissions/
-reports/
 removed_features/
 
 # Docker
