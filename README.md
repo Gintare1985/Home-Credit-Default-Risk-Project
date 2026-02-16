@@ -3,7 +3,6 @@
 
 <img src=reports/figures/app_figure.jpeg width=400 height=200> 
 <br> 
-<br>
 
 This repository contains an end-to-end analysis of **Home Credit Default Risk** dataset. The goal is to build a robust **predictive** machine learning model using advanced feature engineering and multiple algorithms, and deploy it as a FastAPI application in a Docker container on Google Could Platform. 
 
@@ -65,7 +64,8 @@ Repository tree is as follows:
 │   ├── model_params
 │   └── prev_application.ipynb
 ├── poetry.lock
-├── pyproject.tomls
+├── reports
+├── pyproject.toml
 ├── .gitignore
 ├── README.md
 └── utils
@@ -81,7 +81,7 @@ Repository tree is as follows:
 
 This plot shows learning and generalization performance of the built models using ROC AUC score.   
 <br>
-<img src=reports/figures/final_models_comparison_roc_auc.png width=700 height=310> 
+<img src=reports/figures/final_models_comparison_roc_auc.png width=600 height=310> 
 <br>
 
 #### Key insights:

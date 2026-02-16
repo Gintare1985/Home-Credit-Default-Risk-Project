@@ -668,7 +668,7 @@ def plot_numerical_feature_distribution(
         count (bool): Goes to format_number function. Defaults to False.
         bins (int): Number of bins in the histplot. Defaults to 10.
         padding (int): Padding of the subplot title. Defaults to 15.
-        fontsiza (int): Size of the title font.
+        fontsize (int): Size of the title font.
     """
     nrows = len(numerical_features)
     ncols = 3 if target else 2
