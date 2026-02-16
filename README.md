@@ -73,7 +73,7 @@ Repository tree is as follows:
     ├── utils.py
     └── plot_style.py
 ```
-* Notebooks folder contains all analysis notebooks.
+* Notebooks folder contains all analysis notebooks. applications.ipynb is the main notebook, others are helper files.
 * ML_app folder contains FastAPI application code and saved model.
 * Utils folder contains utility functions for plotting styles.
 
